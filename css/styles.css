@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&display=swap");
+/*font-family: 'Fraunces', serif;
+font-family: 'Inter', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&display=swap");
+/*(main background)*/
+/*(card background)*/
+/*(accent)*/
+/*(main heading, stats)*/
+/*(main paragraph)*/
+/*(stat headings)*/
+.texts {
+  height: 275px;
+  box-sizing: border-box;
+  padding: 0 35px;
+  text-align: center;
+}
+
+.texts h1 {
+  margin-top: 30px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.7em;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.texts h1 span {
+  color: hsl(277deg, 64%, 61%);
+}
+
+.texts p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+.stats {
+  height: 270px;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: -20px;
+}
+
+.p1 {
+  font-size: 1.3em;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.p1 span {
+  text-transform: uppercase;
+}
+
+.p2 {
+  color: hsla(0deg, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-size: 0.75em;
+  margin-bottom: 40px;
+}
+
+/*font-family: 'Fraunces', serif;
+font-family: 'Lexend Deca', sans-serif; */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(233deg, 47%, 7%);
+}
+
+.main {
+  width: 330px;
+  height: 785px;
+  margin: 85px auto;
+  border: solid 1px white;
+  border-radius: 10px;
+  background-color: hsl(244deg, 38%, 16%);
+  overflow: hidden;
+}
+
+.img {
+  height: 240px;
+  background-image: url(../images/image-header-mobile.jpg);
+  background-size: cover;
+}
+
+#layer {
+  background-color: hsl(277deg, 64%, 61%);
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.attribution {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsla(0deg, 0%, 100%, 0.75);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    width: 1114px;
+    height: 450px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 178px auto;
+  }
+  .img {
+    width: 100%;
+    max-width: 540px;
+    height: 100%;
+    background-image: url(../images/image-header-desktop.jpg);
+    background-size: cover;
+  }
+  .grid {
+    margin-top: 30px;
+    max-width: 540px;
+  }
+  .texts {
+    text-align: left;
+  }
+  .texts h1 {
+    font-size: 2.5em;
+  }
+  .texts p {
+    margin-right: 80px;
+    line-height: 30px;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 80px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
